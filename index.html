@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Tool & FAQ Chatbot</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Language Translation Tool</h1>
+
+        <textarea id="inputText" placeholder="Enter text here"></textarea>
+
+        <div class="language-box">
+
+            <select id="sourceLang">
+                <option value="en">English</option>
+                <option value="ta">Tamil</option>
+                <option value="hi">Hindi</option>
+                <option value="zh">Chinese</option>
+            </select>
+
+            <select id="targetLang">
+                <option value="ta">Tamil</option>
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+                <option value="zh">Chinese</option>
+            </select>
+
+        </div>
+
+        <button onclick="translateText()">Translate</button>
+
+        <button onclick="copyText()">Copy</button>
+
+        <div class="output" id="translatedText">
+            Translation will appear here...
+        </div>
+
+        <hr>
+
+        <h1>FAQ Chatbot</h1>
+
+        <input type="text"
+               id="userQuestion"
+               placeholder="Ask your question">
+
+        <button onclick="chatbotReply()">Send</button>
+
+        <div class="chat-box" id="chatOutput">
+            Bot response will appear here...
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
