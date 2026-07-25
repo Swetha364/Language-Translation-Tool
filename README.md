@@ -52,4 +52,4 @@ The Language Translation Tool is a simple and user-friendly web application deve
 **Swetha KKR**
 
 B.Tech Information Technology  
-Prathyusha Engineering College
+
